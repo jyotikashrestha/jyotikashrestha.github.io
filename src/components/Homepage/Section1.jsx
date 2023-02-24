@@ -3,7 +3,7 @@ import { Grid, Stack, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import RadioOptions from "../RadioOptions";
 import LandingPageInputField from "./InputField";
-import Rectange1 from "../../assets/images/Rectangle2.png";
+import Rectange1 from "../../assets/images/error-file.svg";
 
 const Section1 = () => {
 
@@ -55,9 +55,9 @@ const Section1 = () => {
             ></LandingPageInputField>
           </Stack>
         </Grid>
-        {/* <Grid item md={6} xs={12} align="right" data-aos="slide-left">
+        <Grid item md={6} xs={12} align="right" data-aos="slide-left">
           <img src={Rectange1} alt="logo" />
-        </Grid> */}
+        </Grid>
       </>
     );
   };
