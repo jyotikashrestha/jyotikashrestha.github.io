@@ -3,7 +3,7 @@ import { Grid, Stack, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import RadioOptions from "../RadioOptions";
 import LandingPageInputField from "./InputField";
-import Rectange1 from "../../assets/images/error-file.svg";
+import Image from "../../assets/images/image2.png";
 
 const Section1 = () => {
 
@@ -55,8 +55,8 @@ const Section1 = () => {
             ></LandingPageInputField>
           </Stack>
         </Grid>
-        <Grid item md={6} xs={12} align="right" data-aos="slide-left">
-          <img src={Rectange1} alt="logo" />
+        <Grid item md={6} xs={12} align="center">
+          <img src={Image} alt="logo" />
         </Grid>
       </>
     );
@@ -67,7 +67,7 @@ const Section1 = () => {
         <Grid
           container
           spacing={3}
-          rowGap={10}
+          rowGap={2}
           justifyContent="space-between"
           sx={{ marginTop: "4px" }}
         >

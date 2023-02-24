@@ -1,10 +1,10 @@
 import { Grid } from "@mui/material";
-import { Section1 } from "../components/Homepage/";
 import NavBar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Section1 from "../components/Homepage/Section1";
 
 const Home = () => {
   useEffect(() => {
