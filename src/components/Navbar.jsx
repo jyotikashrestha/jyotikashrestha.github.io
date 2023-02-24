@@ -15,7 +15,7 @@ import Button from "../components/Button";
 import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
-  const navItems = ["Home", "About", "Services", "Blog"];
+  const navItems = [];
   const navigate = useNavigate();
   const [anchorElNav, setAnchorElNav] = useState(null);
   const handleOpenNavMenu = (event) => {
@@ -53,7 +53,7 @@ const NavBar = () => {
               sx={{ fontWeight: "700" }}
               className="text-subheading font-jost"
             >
-              SEP
+              JS
             </Typography>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               {navItems.map((item) => (
@@ -78,7 +78,7 @@ const NavBar = () => {
                         marginBottom: "4px",
                       }}
                     />
-                    Sign In
+                    Login
                   </>
                 }
                 onClick={() => {
