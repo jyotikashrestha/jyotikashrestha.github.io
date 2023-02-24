@@ -55,7 +55,7 @@ const Section1 = () => {
             ></LandingPageInputField>
           </Stack>
         </Grid>
-        <Grid item md={6} xs={12} align="center">
+        <Grid item md={6} sx={{ display: { xs: 'none', md: 'block' }}} align="center">
           <img src={Image} alt="logo" />
         </Grid>
       </>
