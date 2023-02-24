@@ -3,7 +3,7 @@ import { Grid, Stack, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import RadioOptions from "../RadioOptions";
 import LandingPageInputField from "./InputField";
-import Image from "../../assets/images/image2.png";
+import Image from "../../assets/images/image.png";
 
 const Section1 = () => {
 
